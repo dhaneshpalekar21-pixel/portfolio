@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Projects</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h2 class="logo">Dhanesh</h2>
+
+        <ul>
+          <li>
+            <button id="theme-toggle">
+              🌙
+            </button>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="certificates.html">Certificates</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="projects-section scroll-reveal">
+      <div class="project-title">
+        <h1>My <span>Projects</span></h1>
+
+        <p>
+          Here are some projects I created using web development technologies.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="frontend">Frontend</button>
+        <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+        <button class="filter-btn" data-filter="java-mysql">Java & SQL</button>
+      </div>
+
+      <div class="project-container">
+        <!-- Project 1 -->
+        <div class="project-card" data-category="frontend">
+          <img
+            src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?q=80&w=1200&auto=format&fit=crop"
+            alt="Weather App"
+          />
+
+          <div class="project-content">
+            <h2>Weather Forecast App</h2>
+
+            <p>
+              Real-time weather application using weather API with live
+              temperature and city search.
+            </p>
+
+            <div class="tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/dhaneshpalekar21-pixel" target="_blank" class="project-btn">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="#" class="project-btn btn-live">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-category="java-mysql">
+          <img
+            src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1200&auto=format&fit=crop"
+            alt="Restaurant"
+          />
+
+          <div class="project-content">
+            <h2>Restaurant Management System</h2>
+
+            <p>
+              Manage orders, customers, billing and restaurant operations
+              efficiently.
+            </p>
+
+            <div class="tech">
+              <span>Java</span>
+              <span>MySQL</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/dhaneshpalekar21-pixel" target="_blank" class="project-btn">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="#" class="project-btn btn-live">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-category="frontend">
+          <img
+            src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1200&auto=format&fit=crop"
+            alt="City"
+          />
+
+          <div class="project-content">
+            <h2>Integrated City Information System</h2>
+
+            <p>
+              Platform providing information about city facilities, services and
+              emergency contacts.
+            </p>
+
+            <div class="tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/dhaneshpalekar21-pixel" target="_blank" class="project-btn">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="#" class="project-btn btn-live">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ATM MANAGEMENT -->
+        <div class="project-card" data-category="java-mysql">
+          <img
+            src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?q=80&w=1200&auto=format&fit=crop"
+            alt="ATM"
+          />
+
+          <div class="project-content">
+            <h2>ATM Management System</h2>
+
+            <p>
+              Banking management system for withdrawal, deposit, balance inquiry
+              and transactions.
+            </p>
+
+            <div class="tech">
+              <span>Java</span>
+              <span>MySQL</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/dhaneshpalekar21-pixel" target="_blank" class="project-btn">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="#" class="project-btn btn-live">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- UNIVERSITY MANAGEMENT -->
+        <div class="project-card" data-category="java-mysql">
+          <img
+            src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1200&auto=format&fit=crop"
+            alt="University"
+          />
+
+          <div class="project-content">
+            <h2>University Management System</h2>
+
+            <p>
+              System to manage students, faculty, attendance, exams and academic
+              records.
+            </p>
+
+            <div class="tech">
+              <span>Java</span>
+              <span>Database</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/dhaneshpalekar21-pixel" target="_blank" class="project-btn">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="#" class="project-btn btn-live">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- HOSPITAL MANAGEMENT -->
+        <div class="project-card" data-category="frontend">
+          <img
+            src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1200&auto=format&fit=crop"
+            alt="Hospital"
+          />
+
+          <div class="project-content">
+            <h2>Hospital Management System</h2>
+
+            <p>
+              Manage patients, doctors, appointments, billing and medical
+              records efficiently.
+            </p>
+
+            <div class="tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/dhaneshpalekar21-pixel" target="_blank" class="project-btn">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="#" class="project-btn btn-live">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- MOVIE TICKET MANAGEMENT (MERN Stack Full Stack Showcase) -->
+        <div class="project-card" data-category="fullstack">
+          <img
+            src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1200&auto=format&fit=crop"
+            alt="Movie Ticket"
+          />
+
+          <div class="project-content">
+            <h2>MERN Movie Ticket Booking</h2>
+
+            <p>
+              Full Stack online ticket booking web application with dynamic seats grid, administrator dashboard, and Stripe payment gateway.
+            </p>
+
+            <div class="tech">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>MongoDB</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/dhaneshpalekar21-pixel" target="_blank" class="project-btn">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="#" class="project-btn btn-live">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Dhanesh Palekar | All Rights Reserved</p>
+    </footer>
+        <script src="script.js"></script>
+
+  </body>
+</html>

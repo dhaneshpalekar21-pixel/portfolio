@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Certificates</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h2 class="logo">Dhanesh</h2>
+
+        <ul>
+          <li>
+            <button id="theme-toggle">
+              🌙
+            </button>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="certificates.html" class="active">Certificates</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="certificate-section scroll-reveal">
+      <div class="certificate-title">
+        <h1>My <span>Certificates</span></h1>
+
+        <p>
+          Certifications, internships and achievements that showcase my
+          technical skills.
+        </p>
+      </div>
+
+      <div class="certificate-container">
+        <!-- Infosys -->
+        <div class="certificate-card">
+          <img src="images/infosys.png" alt="Infosys Certificate" />
+
+          <div class="certificate-content">
+            <h2>MEAN Stack Development</h2>
+
+            <h3>Infosys Springboard</h3>
+
+            <p>
+              Successfully completed MEAN Stack Development certification
+              program.
+            </p>
+
+            <a href="#" class="view-cert-btn" data-cert="images/infosys.png"> View Certificate </a>
+          </div>
+        </div>
+
+        <!-- Accenture -->
+        <div class="certificate-card">
+          <img src="images/accenture.png" alt="Accenture Certificate" />
+
+          <div class="certificate-content">
+            <h2>Software Engineering Simulation</h2>
+
+            <h3>Accenture Forage</h3>
+
+            <p>Completed software engineering job simulation program.</p>
+
+            <a href="#" class="view-cert-btn" data-cert="images/accenture.png">
+              View Certificate
+            </a>
+          </div>
+        </div>
+
+        <!-- NPTEL -->
+        <div class="certificate-card">
+          <img src="images/nptel.png" alt="NPTEL Certificate" />
+
+          <div class="certificate-content">
+            <h2>Cloud Computing</h2>
+
+            <h3>NPTEL</h3>
+
+            <p>Successfully completed NPTEL Cloud Computing course.</p>
+
+            <a href="#" class="view-cert-btn" data-cert="images/nptel.png"> View Certificate </a>
+          </div>
+        </div>
+
+        <!-- HP -->
+        <div class="certificate-card">
+          <img src="images/hp.png" alt="HP Certificate" />
+
+          <div class="certificate-content">
+            <h2>Data Science & Analytics</h2>
+
+            <h3>HP LIFE</h3>
+
+            <p>Completed Data Science & Analytics online course.</p>
+
+            <a href="#" class="view-cert-btn" data-cert="images/hp.png"> View Certificate </a>
+          </div>
+        </div>
+
+        <!-- Python -->
+        <div class="certificate-card">
+          <img src="images/python.png" alt="Python Certificate" />
+
+          <div class="certificate-content">
+            <h2>Python Training</h2>
+
+            <h3>IIT Bombay Spoken Tutorial</h3>
+
+            <p>Successfully completed Python programming training.</p>
+
+            <a href="#" class="view-cert-btn" data-cert="images/python.png"> View Certificate </a>
+          </div>
+        </div>
+
+        <!-- Publication -->
+        <div class="certificate-card">
+          <img src="images/publication.png" alt="Publication Certificate" />
+
+          <div class="certificate-content">
+            <h2>Publication Certificate</h2>
+
+            <h3>IJSREM Journal</h3>
+
+            <p>
+              Published research paper on Face Recognition Attendance System.
+            </p>
+
+            <a href="#" class="view-cert-btn" data-cert="images/publication.png">
+              View Certificate
+            </a>
+          </div>
+        </div>
+
+        <!--Java Training-->
+        <div class="certificate-card">
+          <img src="images/java.png" alt="Java Certificate" />
+
+          <div class="certificate-content">
+            <h2>SQL, Core & Advanced Java</h2>
+
+            <h3>SEED Infotech</h3>
+
+            <p>
+              Successfully completed training on SQL, Core Java and Advanced
+              Java.
+            </p>
+
+            <a href="#" class="view-cert-btn" data-cert="images/java.png"> View Certificate </a>
+          </div>
+        </div>
+
+        <!--AI Workshop-->
+        <div class="certificate-card">
+          <img src="images/ai.png" alt="AI Workshop" />
+
+          <div class="certificate-content">
+            <h2>AI & Essential Skills Workshop</h2>
+
+            <h3>Brainovision Solutions</h3>
+
+            <p>
+              Participated in National Level Workshop on AI & Essential Skills.
+            </p>
+
+            <a href="#" class="view-cert-btn" data-cert="images/ai.png"> View Certificate </a>
+          </div>
+        </div>
+
+        <!--Python 7 day intern-->
+        <div class="certificate-card">
+          <img src="images/internship.png" alt="Internship Certificate" />
+
+          <div class="certificate-content">
+            <h2>Python Internship Program</h2>
+
+            <h3>iBase Electrosoft LLP</h3>
+
+            <p>Successfully completed 7 Days Python Internship Program.</p>
+
+            <a href="#" class="view-cert-btn" data-cert="images/internship.png">
+              View Certificate
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Glassmorphic Lightbox Modal overlay -->
+    <div id="cert-lightbox" class="lightbox">
+      <div class="lightbox-content-wrapper">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="" alt="Certificate Preview">
+        <div id="lightbox-caption"></div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2026 Dhanesh Palekar | All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
